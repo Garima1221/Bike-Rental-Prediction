@@ -122,6 +122,7 @@ lines(predictLR,col = "red")
 ## test error
 sqrt(mean((data_set$cnt[test]-predictLR)^2))
 ## 0.1484
+
 ## Linear model will not work well here thus we move to other methods 
 ## decision tree 
 modelDT = tree(data_set$cnt~.,data = data_set,subset = train)
@@ -166,4 +167,3 @@ sqrt(mean((data_set$cnt[test]- predictRF)^2))
 #rf_random <- train(data_set$cnt~., data=data_set, method="rf", tuneLength=7, trControl=control)
 #print(rf_random)
 #plot(rf_random)
-

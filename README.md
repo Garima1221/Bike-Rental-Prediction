@@ -4,7 +4,7 @@ Bike sharing has been gaining popularity all over the world. People can rent bik
 We build regression models to predict bike counts based on weather and environmental settings so that inventory can be managed efficiently.
 
 # File Details : 
-* data.csv - file containing dataset 
+* day.csv - file containing dataset 
 * ProjectBikeRental.R containing implementation code in R
 * ProjectBikeRental.py containing implementation code in Python
 * ProjectBikeRental1.pdf containing detailed project report. 
